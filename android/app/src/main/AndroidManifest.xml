@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.se_ulusofona.se_proj_emel_epark">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCN7_4tz_f_xZGSCQYZyfjKTAGh6IXE6TA"/>
+
+        <activity
+            android:name=".controller.LoginActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".controller.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".controller.LoginActivity">
+            <!-- Parent activity meta-data para suporte a versão 4.0 e anteriores (SETA VOLTAR NA APP BAR )-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controller.LoginActivity" />
+        </activity>
+
+        <activity
+            android:name=".controller.FAQActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".controller.MainActivity">
+            <!-- Parent activity meta-data para suporte a versão 4.0 e anteriores (SETA VOLTAR NA APP BAR )-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controller.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".utils.FetchAddressIntentService"
+            android:exported="false"/>
+
+    </application>
+
+</manifest>

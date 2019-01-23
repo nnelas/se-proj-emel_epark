@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#004873</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="emelPrincipal">#004873</color>
+    <color name="texto">#F2F2F2</color>
+    <color name="zonaVerde">#00BC58</color>
+    <color name="zonaAmarela">#FFDF00</color>
+    <color name="zonaVermelha">#E91912</color>
+    <color name="backgroundWindow">#E4E4E4</color>
+    <color name="colorWarning">#f1f100</color>
+    <color name="colorFine">#f10000</color>
+    <color name="colorBlack">#000</color>
+    <color name="bt_color">#ddd</color>
+
+</resources>

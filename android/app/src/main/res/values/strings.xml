@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">EMEL E-PARK</string>
+
+    <!-- str -->
+    <string name="str_nexpirados">%1$d veículo(s) expirado(s) recentemente</string>
+    <string name="str_autoComplete">Insira a Rua</string>
+    <string name="str_zona">Verde</string>
+    <string name="str_rua">Avenida da Liberdade</string>
+    <string name="str_pago">Pago</string>
+
+    <!-- txt -->
+    <string name="txt_faq">FAQ</string>
+    <string name="txt_login">LOGIN</string>
+    <string name="txt_matricula">Matrícula</string>
+    <string name="txt_registo">Registo</string>
+    <string name="txt_estado">Estado</string>
+
+    <string name="txt_zona">Zona: </string>
+    <string name="txt_rua">Rua: </string>
+    <string name="txt_pago">Parque pago até: </string>
+
+    <string name="txt_aviso">Aviso</string>
+    <string name="txt_coima">Coima</string>
+
+    <string name="txt_infoAdicional">Informação adicional</string>
+    <string name="txt_marca">Marca: </string>
+    <string name="txt_modelo">Modelo: </string>
+    <string name="txt_tipo">Tipo: </string>
+    <string name="txt_data">Data de registo: </string>
+    <string name="txt_cor">Cor: </string>
+    <string name="txt_ajudaMatricula">AA0000</string>
+
+    <!-- btn -->
+    <string name="btn_clear">Limpar</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_pesquisa">Pesquisar</string>
+    <string name="btn_aviso">Aviso</string>
+    <string name="btn_coima">Coima</string>
+
+    <!-- FAQ -->
+    <string name="pergunta1">Como utilizar os diferentes ecrãs?</string>
+    <string name="pergunta2">Como utilizar a pesquisa por camera?</string>
+    <string name="pergunta3">Como utilizar a pesquisa por rua?</string>
+    <string name="pergunta4">Como utilizar a pesquisa por matrícula?</string>
+    <string name="pergunta5">A minha localização não está correcta</string>
+
+    <string name="resposta1">Simplesmente deslize o dedo para o lado, esquerdo (pesquisa por rua) ou direito (pesquisa por matricula) para aceder às diferentes opções.</string>
+    <string name="resposta2">Primeiro, certifique-se que tem boa luminosidade para capturar a matrícula. De seguida, aponte a câmara para a matrícula. Agora basta aguardar até à deteção. Esta operação demora entre 1 a 5 segundos dependendo da luminosidade e do estado da matrícula.</string>
+    <string name="resposta3">Clique por cima da rua e digite/selecione a rua pretendida. Após selecionada, arraste o seu dedo de cima para baixo para actualizar a listagem de ruas.</string>
+    <string name="resposta4">Basta inserir a matricula pretendida (sem separador -). Quando preenchida, será automaticamente levado para um ecrã com as informações do veículo</string>
+    <string name="resposta5">Carregue em cima do simbolo de localização e aguarde que a sua posição seja triangulada.</string>
+
+
+    <!-- Location -->
+    <string name="no_geocoder_available">No geocoder available</string>
+
+    <string name="fetch_address">Fetch address</string>
+
+    <string name="address_found">Address found</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+
+    <!-- OCR-->
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+
+    <!-- Teclado -->
+
+    <string name="bt_1">1</string>
+    <string name="bt_2">2</string>
+    <string name="bt_3">3</string>
+    <string name="bt_4">4</string>
+    <string name="bt_5">5</string>
+    <string name="bt_6">6</string>
+    <string name="bt_7">7</string>
+    <string name="bt_8">8</string>
+    <string name="bt_9">9</string>
+    <string name="bt_0">0</string>
+    <string name="bt_Q">Q</string>
+    <string name="bt_W">W</string>
+    <string name="bt_E">E</string>
+    <string name="bt_R">R</string>
+    <string name="bt_T">T</string>
+    <string name="bt_Y">Y</string>
+    <string name="bt_U">U</string>
+    <string name="bt_I">I</string>
+    <string name="bt_O">O</string>
+    <string name="bt_P">P</string>
+    <string name="bt_A">A</string>
+    <string name="bt_S">S</string>
+    <string name="bt_D">D</string>
+    <string name="bt_F">F</string>
+    <string name="bt_G">G</string>
+    <string name="bt_H">H</string>
+    <string name="bt_J">J</string>
+    <string name="bt_K">K</string>
+    <string name="bt_L">L</string>
+    <string name="bt_Z">Z</string>
+    <string name="bt_X">X</string>
+    <string name="bt_C">C</string>
+    <string name="bt_V">V</string>
+    <string name="bt_B">B</string>
+    <string name="bt_N">N</string>
+    <string name="bt_M">M</string>
+    <string name="bt_CLEAR">CLEAR</string>
+    <string name="bt_DEL">DEL</string>
+</resources>
